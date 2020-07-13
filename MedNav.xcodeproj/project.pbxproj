@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA60626224BB82DF000B1050 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60626124BB82DF000B1050 /* SecondViewController.swift */; };
+		EA60626424BB8360000B1050 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60626324BB8360000B1050 /* ThirdViewController.swift */; };
+		EA60626824BBBC4D000B1050 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60626724BBBC4D000B1050 /* FourViewController.swift */; };
+		EA60626A24BBBCC2000B1050 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60626924BBBCC2000B1050 /* FiveViewController.swift */; };
+		EA60626C24BBD052000B1050 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60626B24BBD052000B1050 /* SixViewController.swift */; };
+		EA60626E24BBD0FD000B1050 /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60626D24BBD0FD000B1050 /* SevenViewController.swift */; };
+		EA60627224BBD359000B1050 /* EightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60627124BBD359000B1050 /* EightViewController.swift */; };
+		EA60627424BBE817000B1050 /* NineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60627324BBE816000B1050 /* NineViewController.swift */; };
+		EAB74C8924BA608C000D9B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74C8824BA608C000D9B1F /* AppDelegate.swift */; };
+		EAB74C8B24BA608C000D9B1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74C8A24BA608C000D9B1F /* SceneDelegate.swift */; };
+		EAB74C8D24BA608C000D9B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74C8C24BA608C000D9B1F /* ViewController.swift */; };
+		EAB74C9024BA608C000D9B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB74C8E24BA608C000D9B1F /* Main.storyboard */; };
+		EAB74C9224BA6096000D9B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB74C9124BA6096000D9B1F /* Assets.xcassets */; };
+		EAB74C9524BA6096000D9B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB74C9324BA6096000D9B1F /* LaunchScreen.storyboard */; };
+		EAB74CA024BA6097000D9B1F /* MedNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74C9F24BA6097000D9B1F /* MedNavTests.swift */; };
+		EAB74CAB24BA6097000D9B1F /* MedNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CAA24BA6097000D9B1F /* MedNavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB74C9C24BA6097000D9B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB74C7D24BA608B000D9B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB74C8424BA608C000D9B1F;
+			remoteInfo = MedNav;
+		};
+		EAB74CA724BA6097000D9B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB74C7D24BA608B000D9B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB74C8424BA608C000D9B1F;
+			remoteInfo = MedNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA60626124BB82DF000B1050 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EA60626324BB8360000B1050 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EA60626724BBBC4D000B1050 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		EA60626924BBBCC2000B1050 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		EA60626B24BBD052000B1050 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		EA60626D24BBD0FD000B1050 /* SevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
+		EA60627124BBD359000B1050 /* EightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightViewController.swift; sourceTree = "<group>"; };
+		EA60627324BBE816000B1050 /* NineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineViewController.swift; sourceTree = "<group>"; };
+		EAB74C8524BA608C000D9B1F /* MedNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB74C8824BA608C000D9B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAB74C8A24BA608C000D9B1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAB74C8C24BA608C000D9B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAB74C8F24BA608C000D9B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB74C9124BA6096000D9B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB74C9424BA6096000D9B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB74C9624BA6096000D9B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB74C9B24BA6097000D9B1F /* MedNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB74C9F24BA6097000D9B1F /* MedNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedNavTests.swift; sourceTree = "<group>"; };
+		EAB74CA124BA6097000D9B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB74CA624BA6097000D9B1F /* MedNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB74CAA24BA6097000D9B1F /* MedNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedNavUITests.swift; sourceTree = "<group>"; };
+		EAB74CAC24BA6097000D9B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB74C8224BA608C000D9B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB74C9824BA6097000D9B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB74CA324BA6097000D9B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB74C7C24BA608B000D9B1F = {
+			isa = PBXGroup;
+			children = (
+				EAB74C8724BA608C000D9B1F /* MedNav */,
+				EAB74C9E24BA6097000D9B1F /* MedNavTests */,
+				EAB74CA924BA6097000D9B1F /* MedNavUITests */,
+				EAB74C8624BA608C000D9B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB74C8624BA608C000D9B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74C8524BA608C000D9B1F /* MedNav.app */,
+				EAB74C9B24BA6097000D9B1F /* MedNavTests.xctest */,
+				EAB74CA624BA6097000D9B1F /* MedNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB74C8724BA608C000D9B1F /* MedNav */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74C8824BA608C000D9B1F /* AppDelegate.swift */,
+				EAB74C8A24BA608C000D9B1F /* SceneDelegate.swift */,
+				EAB74C8C24BA608C000D9B1F /* ViewController.swift */,
+				EAB74C8E24BA608C000D9B1F /* Main.storyboard */,
+				EA60626124BB82DF000B1050 /* SecondViewController.swift */,
+				EA60626324BB8360000B1050 /* ThirdViewController.swift */,
+				EA60626724BBBC4D000B1050 /* FourViewController.swift */,
+				EA60626924BBBCC2000B1050 /* FiveViewController.swift */,
+				EA60626B24BBD052000B1050 /* SixViewController.swift */,
+				EA60626D24BBD0FD000B1050 /* SevenViewController.swift */,
+				EA60627124BBD359000B1050 /* EightViewController.swift */,
+				EA60627324BBE816000B1050 /* NineViewController.swift */,
+				EAB74C9124BA6096000D9B1F /* Assets.xcassets */,
+				EAB74C9324BA6096000D9B1F /* LaunchScreen.storyboard */,
+				EAB74C9624BA6096000D9B1F /* Info.plist */,
+			);
+			path = MedNav;
+			sourceTree = "<group>";
+		};
+		EAB74C9E24BA6097000D9B1F /* MedNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74C9F24BA6097000D9B1F /* MedNavTests.swift */,
+				EAB74CA124BA6097000D9B1F /* Info.plist */,
+			);
+			path = MedNavTests;
+			sourceTree = "<group>";
+		};
+		EAB74CA924BA6097000D9B1F /* MedNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74CAA24BA6097000D9B1F /* MedNavUITests.swift */,
+				EAB74CAC24BA6097000D9B1F /* Info.plist */,
+			);
+			path = MedNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB74C8424BA608C000D9B1F /* MedNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB74CAF24BA6097000D9B1F /* Build configuration list for PBXNativeTarget "MedNav" */;
+			buildPhases = (
+				EAB74C8124BA608C000D9B1F /* Sources */,
+				EAB74C8224BA608C000D9B1F /* Frameworks */,
+				EAB74C8324BA608C000D9B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedNav;
+			productName = MedNav;
+			productReference = EAB74C8524BA608C000D9B1F /* MedNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB74C9A24BA6097000D9B1F /* MedNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB74CB224BA6097000D9B1F /* Build configuration list for PBXNativeTarget "MedNavTests" */;
+			buildPhases = (
+				EAB74C9724BA6097000D9B1F /* Sources */,
+				EAB74C9824BA6097000D9B1F /* Frameworks */,
+				EAB74C9924BA6097000D9B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB74C9D24BA6097000D9B1F /* PBXTargetDependency */,
+			);
+			name = MedNavTests;
+			productName = MedNavTests;
+			productReference = EAB74C9B24BA6097000D9B1F /* MedNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAB74CA524BA6097000D9B1F /* MedNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB74CB524BA6097000D9B1F /* Build configuration list for PBXNativeTarget "MedNavUITests" */;
+			buildPhases = (
+				EAB74CA224BA6097000D9B1F /* Sources */,
+				EAB74CA324BA6097000D9B1F /* Frameworks */,
+				EAB74CA424BA6097000D9B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB74CA824BA6097000D9B1F /* PBXTargetDependency */,
+			);
+			name = MedNavUITests;
+			productName = MedNavUITests;
+			productReference = EAB74CA624BA6097000D9B1F /* MedNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB74C7D24BA608B000D9B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Daniel Gao";
+				TargetAttributes = {
+					EAB74C8424BA608C000D9B1F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EAB74C9A24BA6097000D9B1F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EAB74C8424BA608C000D9B1F;
+					};
+					EAB74CA524BA6097000D9B1F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EAB74C8424BA608C000D9B1F;
+					};
+				};
+			};
+			buildConfigurationList = EAB74C8024BA608C000D9B1F /* Build configuration list for PBXProject "MedNav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB74C7C24BA608B000D9B1F;
+			productRefGroup = EAB74C8624BA608C000D9B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB74C8424BA608C000D9B1F /* MedNav */,
+				EAB74C9A24BA6097000D9B1F /* MedNavTests */,
+				EAB74CA524BA6097000D9B1F /* MedNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB74C8324BA608C000D9B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB74C9524BA6096000D9B1F /* LaunchScreen.storyboard in Resources */,
+				EAB74C9224BA6096000D9B1F /* Assets.xcassets in Resources */,
+				EAB74C9024BA608C000D9B1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB74C9924BA6097000D9B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB74CA424BA6097000D9B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB74C8124BA608C000D9B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA60626A24BBBCC2000B1050 /* FiveViewController.swift in Sources */,
+				EA60626E24BBD0FD000B1050 /* SevenViewController.swift in Sources */,
+				EA60626224BB82DF000B1050 /* SecondViewController.swift in Sources */,
+				EA60627424BBE817000B1050 /* NineViewController.swift in Sources */,
+				EAB74C8D24BA608C000D9B1F /* ViewController.swift in Sources */,
+				EA60626824BBBC4D000B1050 /* FourViewController.swift in Sources */,
+				EA60626424BB8360000B1050 /* ThirdViewController.swift in Sources */,
+				EA60626C24BBD052000B1050 /* SixViewController.swift in Sources */,
+				EAB74C8924BA608C000D9B1F /* AppDelegate.swift in Sources */,
+				EA60627224BBD359000B1050 /* EightViewController.swift in Sources */,
+				EAB74C8B24BA608C000D9B1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB74C9724BA6097000D9B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB74CA024BA6097000D9B1F /* MedNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB74CA224BA6097000D9B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB74CAB24BA6097000D9B1F /* MedNavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB74C9D24BA6097000D9B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB74C8424BA608C000D9B1F /* MedNav */;
+			targetProxy = EAB74C9C24BA6097000D9B1F /* PBXContainerItemProxy */;
+		};
+		EAB74CA824BA6097000D9B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB74C8424BA608C000D9B1F /* MedNav */;
+			targetProxy = EAB74CA724BA6097000D9B1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB74C8E24BA608C000D9B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB74C8F24BA608C000D9B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB74C9324BA6096000D9B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB74C9424BA6096000D9B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB74CAD24BA6097000D9B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB74CAE24BA6097000D9B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB74CB024BA6097000D9B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP59889U2D;
+				INFOPLIST_FILE = MedNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgao.MedNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EAB74CB124BA6097000D9B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP59889U2D;
+				INFOPLIST_FILE = MedNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgao.MedNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EAB74CB324BA6097000D9B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP59889U2D;
+				INFOPLIST_FILE = MedNavTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgao.MedNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedNav.app/MedNav";
+			};
+			name = Debug;
+		};
+		EAB74CB424BA6097000D9B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP59889U2D;
+				INFOPLIST_FILE = MedNavTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgao.MedNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedNav.app/MedNav";
+			};
+			name = Release;
+		};
+		EAB74CB624BA6097000D9B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP59889U2D;
+				INFOPLIST_FILE = MedNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgao.MedNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedNav;
+			};
+			name = Debug;
+		};
+		EAB74CB724BA6097000D9B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP59889U2D;
+				INFOPLIST_FILE = MedNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgao.MedNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB74C8024BA608C000D9B1F /* Build configuration list for PBXProject "MedNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB74CAD24BA6097000D9B1F /* Debug */,
+				EAB74CAE24BA6097000D9B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB74CAF24BA6097000D9B1F /* Build configuration list for PBXNativeTarget "MedNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB74CB024BA6097000D9B1F /* Debug */,
+				EAB74CB124BA6097000D9B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB74CB224BA6097000D9B1F /* Build configuration list for PBXNativeTarget "MedNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB74CB324BA6097000D9B1F /* Debug */,
+				EAB74CB424BA6097000D9B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB74CB524BA6097000D9B1F /* Build configuration list for PBXNativeTarget "MedNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB74CB624BA6097000D9B1F /* Debug */,
+				EAB74CB724BA6097000D9B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB74C7D24BA608B000D9B1F /* Project object */;
+}
